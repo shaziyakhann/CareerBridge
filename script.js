@@ -1,6 +1,7 @@
 /* ==========================================================
    CareerBridge — Landing Page Interactivity
    ========================================================== */
+// CareerBridge frontend functionality
 
 document.addEventListener("DOMContentLoaded", () => {
   initMobileNav();
