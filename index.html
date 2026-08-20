@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CareerBridge — Internship, Placement & Career Development Platform</title>
+<meta name="description" content="A unified platform connecting students, faculty, placement officers, employers and alumni to run internships, placement drives and career development." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3L2 8l10 5 10-5-10-5Z" stroke="#fff" stroke-width="1.7" stroke-linejoin="round"/><path d="M6 12v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5" stroke="#fff" stroke-width="1.7" stroke-linejoin="round"/></svg>
+      </span>
+      <span class="brand-text">
+        <span class="brand-name">CareerBridge</span>
+        <span class="brand-eyebrow">CAMPUS PLACEMENT OS</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#objectives">Objectives</a>
+      <a href="#stakeholders">Stakeholders</a>
+      <a href="#features">Features</a>
+      <a href="#pipeline">Pipeline</a>
+      <a href="#outcomes">Outcomes</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="#contact" class="btn btn-ghost">Request a demo</a>
+      <a href="#features" class="btn btn-primary">Explore platform</a>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <div class="eyebrow-tag">
+        <span class="dot"></span> BUILT FOR UNIVERSITY PLACEMENT CELLS
+      </div>
+      <h1>One record for every student's journey from <span class="hl">application</span> to <span class="hl">offer</span>.</h1>
+      <p class="hero-sub">
+        CareerBridge connects students, faculty, placement officers, employers and alumni in a single
+        system — replacing spreadsheets and email chains with configurable eligibility rules, recruitment
+        workflows, interview scheduling and live placement analytics.
+      </p>
+      <div class="hero-actions">
+        <a href="#features" class="btn btn-primary btn-lg">See how it works</a>
+        <a href="#pipeline" class="btn btn-outline btn-lg">View the recruitment pipeline</a>
+      </div>
+
+      <div class="hero-stats" id="heroStats">
+        <div class="stat">
+          <div class="stat-num" data-count="4200">0</div>
+          <div class="stat-label">Students Tracked</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-count="180">0</div>
+          <div class="stat-label">Partner Employers</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-count="96">0</div>
+          <div class="stat-label">Active Drives / Term</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num" data-count="87" data-suffix="%">0%</div>
+          <div class="stat-label">Placement Rate</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="mock-card">
+        <div class="mock-topbar">
+          <span class="mock-eyebrow">RECRUITMENT FUNNEL · LIVE</span>
+          <span class="mock-pill">Term II, 2026</span>
+        </div>
+        <div class="mock-funnel" id="heroFunnel">
+          <div class="mock-row"><span class="mock-label">Applied</span><div class="mock-track"><div class="mock-bar" data-width="100"><em>1,240</em></div></div></div>
+          <div class="mock-row"><span class="mock-label">Shortlisted</span><div class="mock-track"><div class="mock-bar" data-width="78"><em>968</em></div></div></div>
+          <div class="mock-row"><span class="mock-label">Interviewed</span><div class="mock-track"><div class="mock-bar" data-width="52"><em>642</em></div></div></div>
+          <div class="mock-row"><span class="mock-label">Offered</span><div class="mock-track"><div class="mock-bar" data-width="34"><em>422</em></div></div></div>
+          <div class="mock-row"><span class="mock-label">Placed</span><div class="mock-track"><div class="mock-bar" data-width="27"><em>338</em></div></div></div>
+        </div>
+        <div class="mock-foot">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 2v20M2 12h20" stroke="#1C8C68" stroke-width="0"/><path d="m3 12 5 5L21 5" stroke="#1C8C68" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Auto-updates as officers, employers and students act
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOGOS / MARQUEE ============ -->
+<section class="marquee-wrap reveal">
+  <div class="marquee-label">Drives run with</div>
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>TechNova Solutions</span><span>Orbit Analytics</span><span>Cascade Robotics</span><span>Meridian Infra</span><span>Cloudforge</span>
+      <span>TechNova Solutions</span><span>Orbit Analytics</span><span>Cascade Robotics</span><span>Meridian Infra</span><span>Cloudforge</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OBJECTIVES ============ -->
+<section class="section" id="objectives">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div class="eyebrow">WHAT THE PLATFORM DOES</div>
+      <h2>Ten objectives, one connected workflow</h2>
+      <p>Every module maps to a real placement-cell responsibility — nothing is generic.</p>
+    </div>
+    <div class="obj-grid">
+      <div class="obj-card reveal"><span class="obj-num">01</span><h3>Manage student career profiles</h3><p>Skills, CGPA, backlogs, resume status and eligibility in one record.</p></div>
+      <div class="obj-card reveal"><span class="obj-num">02</span><h3>Coordinate internships & placements</h3><p>Run internship and full-time drives side by side, per department.</p></div>
+      <div class="obj-card reveal"><span class="obj-num">03</span><h3>Monitor recruitment activities</h3><p>Track every application from submission through to offer letter.</p></div>
+      <div class="obj-card reveal"><span class="obj-num">04</span><h3>Schedule interviews</h3><p>Coordinate slots across recruiters, panels and student calendars.</p></div>
+      <div class="obj-card reveal"><span class="obj-num">05</span><h3>Recommend opportunities</h3><p>Skill-match scoring surfaces the roles each student actually qualifies for.</p></div>
+      <div class="obj-card reveal"><span class="obj-num">06</span><h3>Notify students & employers</h3><p>Status changes, new postings and interview slots trigger instant alerts.</p></div>
+      <div class="obj-card reveal"><span class="obj-num">07</span><h3>Generate placement reports</h3><p>Department-wise, drive-wise and cycle-wise analytics on demand.</p></div>
+      <div class="obj-card reveal"><span class="obj-num">08</span><h3>Improve employer engagement</h3><p>A dedicated portal for recruiters to post roles and manage applicants.</p></div>
+      <div class="obj-card reveal"><span class="obj-num">09</span><h3>Increase student employability</h3><p>Guidance and readiness signals surfaced early, not after a rejection.</p></div>
+      <div class="obj-card reveal"><span class="obj-num">10</span><h3>Support institutional management</h3><p>Configurable policies keep every drive compliant with placement rules.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STAKEHOLDERS ============ -->
+<section class="section section-alt" id="stakeholders">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div class="eyebrow">WHO IT SERVES</div>
+      <h2>Five stakeholders, one shared record</h2>
+      <p>No more re-entering the same data into five disconnected systems.</p>
+    </div>
+    <div class="stake-grid">
+      <div class="stake-card reveal">
+        <div class="stake-icon" style="background:#EAF0FA;color:#3D5273;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 3 2 8l10 5 10-5-10-5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M6 12v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Students</h3>
+        <p>Build a profile once, get matched opportunities, track applications and interviews in real time.</p>
+      </div>
+      <div class="stake-card reveal">
+        <div class="stake-icon" style="background:#E4F3EC;color:#1C8C68;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M3 9h18M8 4v0" stroke="currentColor" stroke-width="1.8"/></svg>
+        </div>
+        <h3>Placement Officers</h3>
+        <p>Oversee eligibility, drives and interview schedules with institution-wide analytics.</p>
+      </div>
+      <div class="stake-card reveal">
+        <div class="stake-icon" style="background:#FCEFDA;color:#B4711F;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 21V8l8-5 8 5v13" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 21v-6h6v6" stroke="currentColor" stroke-width="1.8"/></svg>
+        </div>
+        <h3>Employers</h3>
+        <p>Post roles, review applicants, shortlist and schedule interviews from a dedicated recruiter workspace.</p>
+      </div>
+      <div class="stake-card reveal">
+        <div class="stake-icon" style="background:#F1E9FB;color:#6B3FA0;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 14c3 0 5-2.2 5-5s-2-5-5-5-5 2.2-5 5 2 5 5 5Z" stroke="currentColor" stroke-width="1.8"/><path d="M4 21c0-3.6 3.6-6 8-6s8 2.4 8 6" stroke="currentColor" stroke-width="1.8"/></svg>
+        </div>
+        <h3>Faculty</h3>
+        <p>Advise students using the same eligibility and career-readiness data the placement cell sees.</p>
+      </div>
+      <div class="stake-card reveal">
+        <div class="stake-icon" style="background:#FBE8E5;color:#B24336;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3.4" stroke="currentColor" stroke-width="1.8"/><path d="M5 21c1-4 4-6 7-6s6 2 7 6" stroke="currentColor" stroke-width="1.8"/><path d="M17 4.5c1.3.4 2.2 1.6 2.2 3S18.3 10 17 10.4" stroke="currentColor" stroke-width="1.6"/></svg>
+        </div>
+        <h3>Alumni</h3>
+        <p>Contribute referrals, mentoring and career guidance back into the same placement network.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURES ============ -->
+<section class="section" id="features">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div class="eyebrow">CORE MODULES</div>
+      <h2>Everything a placement cycle needs</h2>
+      <p>Six modules covering the full lifecycle, from eligibility to offer letter.</p>
+    </div>
+    <div class="feat-grid">
+      <div class="feat-card reveal">
+        <div class="feat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3.4" stroke="#fff" stroke-width="1.8"/><path d="M5 21c1-4 4-6 7-6s6 2 7 6" stroke="#fff" stroke-width="1.8"/></svg></div>
+        <h3>Student Profiles</h3>
+        <p>Centralized academic record, skills, resume status and computed eligibility per drive.</p>
+      </div>
+      <div class="feat-card reveal">
+        <div class="feat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 12h4l3 8 4-16 3 8h4" stroke="#fff" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+        <h3>Recruitment Workflows</h3>
+        <p>Configurable stages — applied, shortlisted, interviewed, offered, placed — enforced automatically.</p>
+      </div>
+      <div class="feat-card reveal">
+        <div class="feat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="17" rx="2" stroke="#fff" stroke-width="1.8"/><path d="M3 9h18M8 3v3M16 3v3" stroke="#fff" stroke-width="1.8"/></svg></div>
+        <h3>Interview Scheduling</h3>
+        <p>Coordinated slots across recruiter calendars, panels and student availability.</p>
+      </div>
+      <div class="feat-card reveal">
+        <div class="feat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 4v16h16" stroke="#fff" stroke-width="1.8"/><rect x="7" y="12" width="3" height="5" fill="#fff"/><rect x="12" y="8" width="3" height="9" fill="#fff"/><rect x="17" y="10" width="3" height="7" fill="#fff"/></svg></div>
+        <h3>Placement Analytics</h3>
+        <p>Department, drive and term-wise reports with live conversion tracking.</p>
+      </div>
+      <div class="feat-card reveal">
+        <div class="feat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 3a5 5 0 0 0-5 5c0 5-2 6-2 8h14c0-2-2-3-2-8a5 5 0 0 0-5-5Z" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/><path d="M10 19a2 2 0 0 0 4 0" stroke="#fff" stroke-width="1.8"/></svg></div>
+        <h3>Stakeholder Notifications</h3>
+        <p>Automatic alerts on status changes, new postings and upcoming interviews.</p>
+      </div>
+      <div class="feat-card reveal">
+        <div class="feat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 21V8l8-5 8 5v13" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 21v-6h6v6" stroke="#fff" stroke-width="1.8"/></svg></div>
+        <h3>Employer Collaboration</h3>
+        <p>Recruiter portal for posting roles, reviewing applicants and closing drives faster.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PIPELINE / SIGNATURE ============ -->
+<section class="section section-dark" id="pipeline">
+  <div class="section-inner">
+    <div class="section-head reveal light">
+      <div class="eyebrow eyebrow-light">HOW A STUDENT MOVES THROUGH THE SYSTEM</div>
+      <h2>From application to offer — tracked at every stage</h2>
+      <p>The same funnel that powers the officer dashboard, rendered here with a live cycle's numbers.</p>
+    </div>
+    <div class="pipeline-grid">
+      <div class="pipeline-steps reveal">
+        <div class="pstep"><span class="pstep-index">1</span><div><h4>Applied</h4><p>Student applies to a matched, eligibility-checked opportunity.</p></div></div>
+        <div class="pstep"><span class="pstep-index">2</span><div><h4>Shortlisted</h4><p>Employer reviews the profile against role requirements.</p></div></div>
+        <div class="pstep"><span class="pstep-index">3</span><div><h4>Interviewed</h4><p>Interview scheduled and conducted through the platform.</p></div></div>
+        <div class="pstep"><span class="pstep-index">4</span><div><h4>Offered</h4><p>Offer issued and logged against the student's record.</p></div></div>
+        <div class="pstep"><span class="pstep-index">5</span><div><h4>Placed</h4><p>Outcome confirmed and rolled into institutional placement stats.</p></div></div>
+      </div>
+      <div class="pipeline-visual reveal">
+        <div class="mock-card dark-card">
+          <div class="mock-topbar">
+            <span class="mock-eyebrow">CONVERSION THIS CYCLE</span>
+          </div>
+          <div class="mock-funnel" id="pipelineFunnel">
+            <div class="mock-row"><span class="mock-label">Applied</span><div class="mock-track"><div class="mock-bar" data-width="100"><em>1,240</em></div></div></div>
+            <div class="mock-row"><span class="mock-label">Shortlisted</span><div class="mock-track"><div class="mock-bar" data-width="78"><em>968</em></div></div></div>
+            <div class="mock-row"><span class="mock-label">Interviewed</span><div class="mock-track"><div class="mock-bar" data-width="52"><em>642</em></div></div></div>
+            <div class="mock-row"><span class="mock-label">Offered</span><div class="mock-track"><div class="mock-bar" data-width="34"><em>422</em></div></div></div>
+            <div class="mock-row"><span class="mock-label">Placed</span><div class="mock-track"><div class="mock-bar" data-width="27"><em>338</em></div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OUTCOMES ============ -->
+<section class="section" id="outcomes">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div class="eyebrow">EXPECTED OUTCOMES</div>
+      <h2>What changes for the institution</h2>
+    </div>
+    <div class="outcomes-grid">
+      <ul class="outcomes-list reveal">
+        <li><span class="check">✓</span>Improved placement efficiency</li>
+        <li><span class="check">✓</span>More internship opportunities</li>
+        <li><span class="check">✓</span>Stronger employer collaboration</li>
+        <li><span class="check">✓</span>Higher student employability</li>
+        <li><span class="check">✓</span>Reduced administrative effort</li>
+      </ul>
+      <ul class="outcomes-list reveal">
+        <li><span class="check">✓</span>Greater recruitment transparency</li>
+        <li><span class="check">✓</span>Structured career planning</li>
+        <li><span class="check">✓</span>Better institutional performance</li>
+        <li><span class="check">✓</span>Higher placement success rates</li>
+        <li><span class="check">✓</span>Scalable career services</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA / CONTACT ============ -->
+<section class="cta" id="contact">
+  <div class="cta-inner reveal">
+    <h2>Ready to bring your placement cell onto one platform?</h2>
+    <p>Set up student profiles, employer accounts and your first drive in an afternoon.</p>
+    <form class="cta-form" id="ctaForm">
+      <input type="email" placeholder="you@university.edu" required id="ctaEmail" />
+      <button type="submit" class="btn btn-primary btn-lg">Request a demo</button>
+    </form>
+    <div class="cta-note" id="ctaNote"></div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark small">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 3 2 8l10 5 10-5-10-5Z" stroke="#fff" stroke-width="1.7" stroke-linejoin="round"/></svg>
+      </span>
+      CareerBridge
+    </div>
+    <div class="footer-cols">
+      <div>
+        <h5>Platform</h5>
+        <a href="#objectives">Objectives</a>
+        <a href="#features">Features</a>
+        <a href="#pipeline">Pipeline</a>
+      </div>
+      <div>
+        <h5>Stakeholders</h5>
+        <a href="#stakeholders">Students</a>
+        <a href="#stakeholders">Employers</a>
+        <a href="#stakeholders">Placement Officers</a>
+      </div>
+      <div>
+        <h5>Project</h5>
+        <a href="#top">Internship, Placement &amp; Career Development Platform</a>
+        <a href="#top">Education Sector</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 CareerBridge — Academic project prototype. Not affiliated with any real institution.</div>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
